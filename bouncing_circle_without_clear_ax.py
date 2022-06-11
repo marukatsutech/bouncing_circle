@@ -1,4 +1,4 @@
-# Bouncing of a circle (without clear ax)
+# A bouncing circle (without clear ax)
 import math
 import numpy as np
 import matplotlib.pyplot as plt

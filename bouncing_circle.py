@@ -1,4 +1,4 @@
-# Bouncing of a circle
+# A bouncing circle
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -7,7 +7,7 @@ import matplotlib.patches as patches
 
 
 def set_axis():
-    ax.set_title("Bouncing of a circle")
+    ax.set_title("A bouncing circle")
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     ax.set_xlim(x_min, x_max)

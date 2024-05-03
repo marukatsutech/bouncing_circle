@@ -58,5 +58,5 @@ circle = patches.Circle(xy=p0, radius=r0, fill=False)
 ax.add_patch(circle)
 
 # Draw animation
-anim = animation.FuncAnimation(fig, update, interval=50)
+anim = animation.FuncAnimation(fig, update, interval=50, save_count=100)
 plt.show()
